@@ -1,6 +1,6 @@
-# nuflakbrr-usercard.vercel.app
+# nuflakbrr-meme.vercel.app
 
-Create React Github User Card App.
+Create React Meme Generator App.
 
 ## Authors
 
