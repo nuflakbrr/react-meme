@@ -6,7 +6,8 @@ Create React Meme Generator App.
 
 Contributors names and contact info
 
-Naufal Akbar Nugroho | [@kbrnugroho](https://instagram.com/kbrnugroho)
+Naufal Akbar Nugroho  
+[@kbrnugroho](https://instagram.com/kbrnugroho)
 
 ## Version History
 
