@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Meme.css";
 import { useHistory } from "react-router-dom";
+// import Footer from "../components/Footer";
 
 export const Meme = () => {
   const [memes, setMemes] = useState([]);
@@ -78,6 +79,7 @@ export const Meme = () => {
         <input onChange={(e) => updateCaption(e, index)} key={index} />
       ))}
       <img alt="meme" src={memes[memeIndex].url} />
+      {/* <Footer /> */}
     </div>
   ) : (
     <></>

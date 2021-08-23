@@ -2,6 +2,7 @@ import React from "react";
 import { Meme } from "./Meme/Meme";
 import { Switch, Route } from "react-router-dom";
 import { MemeGenerated } from "./MemeGenerated/MemeGenerated";
+import Footer from "./components/Footer";
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
           <MemeGenerated />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 };
