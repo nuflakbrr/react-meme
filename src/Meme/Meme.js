@@ -27,8 +27,8 @@ export const Meme = () => {
     const currentMeme = memes[memeIndex];
     const formData = new FormData();
 
-    formData.append("username", "kbrnufla");
-    formData.append("password", "IniNopal123");
+    formData.append("username", "kbrnufla"); // username from imgflip account
+    formData.append("password", "IniNopal123"); // password from imgflip account
     formData.append("template_id", currentMeme.id);
     captions.forEach((c, index) => formData.append(`boxes[${index}][text]`, c));
 
